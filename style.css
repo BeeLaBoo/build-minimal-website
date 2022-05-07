@@ -1,0 +1,247 @@
+                    body {
+                        background-color: #f6edf7;
+                        margin: 0;
+                    }
+                    
+                    .link-title {
+                        text-decoration: none;
+                        font-size: 48px;
+                        color: #524c4c;
+                    }
+                    
+                    .container {
+                        width: 1080px;
+                        margin: 0 auto;
+                        background: #fff;
+                    }
+                    
+                    .header {
+                        color: #524c4c;
+                        font-family: 'Inconsolata', monospace;
+                        font-weight: bold;
+                        font-size: 50px;
+                        text-align: center;
+                        text-shadow: #e6cac8;
+                        text-decoration: none;
+                        padding: 45px 65px 20px 40px;
+                        border: 3px solid #a7c5d1;
+                        background-color: #a7c5d1;
+                    }
+                    
+                    .menu {
+                        padding: 6px 6px 6px 40px;
+                        background: #e6cac8;
+                    }
+                    
+                    .menu a {
+                        color: azure;
+                        font-size: 18px;
+                        text-decoration: none;
+                        font-family: 'Inconsolata', monospace;
+                    }
+                    
+                    .menu a:hover {
+                        color: grey;
+                        font-weight: bold;
+                    }
+                    
+                    aside {
+                        float: left;
+                        width: 120px;
+                        height: auto;
+                        padding: 30px 0 0 40px;
+                    }
+                    
+                    h1 {
+                        margin: 0px;
+                        color: #6b696b;
+                        font: size 24px;
+                        font-family: 'Inconsolata', monospace;
+                        font-weight: bold;
+                    }
+                    
+                    h2 {
+                        margin: 20px 0 5px 0;
+                        color: #5d4c5e;
+                        font: size 15px;
+                        font-family: "Arial Narrow", "Mymariad Pro";
+                    }
+                    
+                    .main {
+                        margin: 0 0 0 180px;
+                        padding: 35px 40px 30px 0;
+                        color: #3c313d;
+                        font-family: 'Aldrich', sans-serif;
+                        font-size: 14px;
+                        line-height: 22px;
+                        text-emphasis: justify;
+                    }
+                    
+                    .main a :hover {
+                        color: #5d4c5e;
+                    }
+                    
+                    #home-image img {
+                        width: 100%;
+                        height: 50%;
+                        box-shadow: 3px 5px 4px 3px;
+                        border-radius: 5px;
+                    }
+                    
+                    footer {
+                        padding: 6px 40px 6px 40px;
+                        background-color: #c5d0d6;
+                        font-family: 'Fira Sans Condensed', sans-serif;
+                        font-size: 12px;
+                        text-decoration: right;
+                    }
+                    
+                    footer a {
+                        text-decoration: none;
+                        color: #86a9bf;
+                        font-size: 14px;
+                        font-weight: bold;
+                        font-style: italic;
+                    }
+                    
+                    .separator {
+                        color: grey;
+                        font-size: 11px;
+                    }
+                    /**** about page stle ****/
+                    
+                    #about-page #home-image img {
+                        width: 60%;
+                        float: left;
+                        margin-bottom: 30px;
+                        margin-top: 60px;
+                        box-shadow: 3px 5px 4px 3px;
+                        border-radius: 5px;
+                    }
+                    
+                    #about-page aside h1 {
+                        float: left;
+                        width: 120px;
+                        height: auto;
+                        padding: 30px 0 0 40px;
+                        margin: 0px;
+                        color: #6b696b;
+                        font: size 24px;
+                        font-family: 'Inconsolata', monospace;
+                        font-weight: bold;
+                    }
+                    
+                    #about-page #profile-info h1 {
+                        float: right;
+                        width: 20%;
+                        margin: 8px;
+                        margin-top: 170px;
+                        margin-right: 5px;
+                        font-family: 'Inconsolata', monospace;
+                        font-size: 40px;
+                        color: #3c313d;
+                        text-align: center;
+                    }
+                    
+                    #about-page #profile-info h2,
+                    h3 {
+                        color: #6b696b;
+                        float: right;
+                        width: 20%;
+                        margin: 8px;
+                        margin-right: 5px;
+                        font-family: 'Inconsolata', monospace;
+                        text-align: center;
+                    }
+                    
+                    #about-page .description {
+                        clear: both;
+                        margin: 20px 40px 20px 60px;
+                        font-family: "Arial Narrow", "Mymariad Pro";
+                        font-size: 16px;
+                        line-height: 30px;
+                        text-emphasis: justify;
+                    }
+                    /****contact page ---style***/
+                    
+                    #contact-style #home-image img {
+                        width: 80%;
+                        height: 30%;
+                        margin-top: 60px;
+                        margin-left: 100px;
+                        align-self: center;
+                        box-shadow: 3px 5px 4px 3px;
+                        border-radius: 5px;
+                    }
+                    
+                    #contact-style #contact h1 {
+                        font-family: 'Inconsolata', monospace;
+                        font-weight: bold;
+                        font-size: 32px;
+                        text-decoration: none;
+                        text-align: center;
+                        width: auto;
+                        height: auto;
+                        margin-top: 50px;
+                        margin-bottom: 50px;
+                    }
+                    
+                    #contact-style aside {
+                        float: left;
+                        width: auto;
+                        height: auto;
+                        padding: 30px 0 0 40px;
+                        margin-left: 20px;
+                    }
+                    
+                    #font-style {
+                        text-align: center;
+                        margin-left: 60px;
+                    }
+                    
+                    #contact-style #form {
+                        width: 500px;
+                        margin: 0 auto;
+                        margin-bottom: 80px;
+                        padding: 10px 10px 10px 10px;
+                        font-family: 'Inconsolata', monospace;
+                        font-weight: bold;
+                        text-align: left;
+                        font-size: 20px;
+                    }
+                    
+                    #form label {
+                        text-align: left;
+                        margin-bottom: 20px;
+                    }
+                    
+                    #form input {
+                        width: 100%;
+                        height: 20px;
+                        background-color: #bbddf2;
+                        border-radius: 5px;
+                        box-shadow: 1px 2px 1px 1px;
+                    }
+                    
+                    #form #message {
+                        width: 100%;
+                        background-color: #bbddf2;
+                        border-radius: 5px;
+                        box-shadow: 2px 2px 1px 1px;
+                    }
+                    
+                    #form #submit {
+                        width: 50%;
+                        height: 50px;
+                        background-color: #3a5178;
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #f6edf7;
+                        font-family: 'Inconsolata', monospace;
+                        box-shadow: 3px 2px 3px 2px;
+                    }
+                    
+                    #form #submit :hover {
+                        background-color: #859fcc;
+                        box-shadow: 1px 2px 1px 1px;
+                    }
